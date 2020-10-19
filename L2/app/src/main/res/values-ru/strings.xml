@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Фразы</string>
+    <string name="generated_text_hint">Здесь будет сгенерирован текст</string>
+    <string name="generator_button">Сгенирировать</string>
+    <string name="common_text">-это всё, что нам нужно.</string>
+</resources>
