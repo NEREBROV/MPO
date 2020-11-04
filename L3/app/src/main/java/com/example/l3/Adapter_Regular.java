@@ -29,6 +29,7 @@ public class Adapter_Regular extends RecyclerView.Adapter<Adapter_Regular.ViewHo
         holder.idView.setText(values.get(position).id);
         holder.contentView.setText(values.get(position).content);
         holder.itemView.setTag(values.get(position));
+        holder.itemView.setOnClickListener(onClickListener);
     }
     @Override
     public int getItemCount() { return values.size(); }
@@ -43,7 +44,17 @@ public class Adapter_Regular extends RecyclerView.Adapter<Adapter_Regular.ViewHo
             contentView = view.findViewById(R.id.content);
         }
     }
-
+    final private View.OnClickListener onClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            ContentFiller.DummyItem item = (ContentFiller.DummyItem) view.getTag();
+            Context context = view.getContext();
+            Intent intent = new Intent(context, ActivityDet.class);
+            //intent.putExtra("ARG_ITEM_ID", item.id);
+            intent.putExtra("ARG_ITEM_DETAILS", item.details);
+            context.startActivity(intent);
+        }
+    };
 
 }
 
