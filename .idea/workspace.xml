@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,71 +19,85 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2f2cb4-dd64-4922-9671-014481090e2d" name="Default Changelist" comment="Import of SandwichClub" />
+    <list default="true" id="b81c492c-d58e-4c49-bb38-f3090b2cd3f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/DummyContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/androidTest/java/com/example/l3/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/java/com/example/l3/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/app/src/test/java/com/example/l3/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jK0J6GlDriF1AQrbD8Sg4ZiR6q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j6UoRc5rCIeJTQYzLCLBr3mYiG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/L4" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e2f2cb4-dd64-4922-9671-014481090e2d" name="Default Changelist" comment="" />
-      <created>1603537400560</created>
+      <changelist id="b81c492c-d58e-4c49-bb38-f3090b2cd3f5" name="Default Changelist" comment="" />
+      <created>1603124210303</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603537400560</updated>
+      <updated>1603124210303</updated>
     </task>
-    <task id="LOCAL-00001" summary="oi">
-      <created>1605728680145</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605728680145</updated>
-    </task>
-    <task id="LOCAL-00002" summary="oi">
-      <created>1605768406246</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1605768406246</updated>
-    </task>
-    <task id="LOCAL-00003" summary="oi">
-      <created>1605768462371</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1605768462371</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Import of SandwichClub">
-      <created>1605768755651</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605768755651</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,46 +110,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="oi" />
-    <MESSAGE value="Import of SandwichClub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import of SandwichClub" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1603537431640">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="593" y="332" key="Github.CreateGistDialog" timestamp="1603181933447">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603537431640" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605768254082">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="593" y="332" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1603181933447" />
+    <state x="209" y="96" key="new project wizard" timestamp="1603197732998">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605768254082" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1605768825675">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="591" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604499496991" />
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605768825675" />
-    <state width="200" height="138" key="Git.Branch.Popup" timestamp="1605768389767">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="200" height="138" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605768389767" />
-    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1605728696880">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605728696880" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605768760570">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605768760570" />
-    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605768366519">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605768366519" />
-    <state x="342" y="203" key="new project wizard" timestamp="1603537525177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603537525177" />
+    <state x="209" y="96" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603197732998" />
   </component>
 </project>

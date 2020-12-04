@@ -3,12 +3,15 @@ package com.udacity.sandwichclub;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
-
 import com.squareup.picasso.Picasso;
 import com.udacity.sandwichclub.model.Sandwich;
 import com.udacity.sandwichclub.utils.JsonUtils;
+import org.json.JSONException;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -36,14 +39,17 @@ public class DetailActivity extends AppCompatActivity {
 
         String[] sandwiches = getResources().getStringArray(R.array.sandwich_details);
         String json = sandwiches[position];
-        Sandwich sandwich = JsonUtils.parseSandwichJson(json);
-        if (sandwich == null) {
-            // Sandwich data unavailable
-            closeOnError();
-            return;
+        Sandwich sandwich = new Sandwich();
+        try
+        {
+            sandwich = JsonUtils.parseSandwichJson(json);
+        }
+        catch (JSONException e)
+        {
+            e.printStackTrace();
         }
 
-        populateUI();
+        populateUI(sandwich);
         Picasso.with(this)
                 .load(sandwich.getImage())
                 .into(ingredientsIv);
@@ -56,7 +62,14 @@ public class DetailActivity extends AppCompatActivity {
         Toast.makeText(this, R.string.detail_error_message, Toast.LENGTH_SHORT).show();
     }
 
-    private void populateUI() {
+    private void populateUI(Sandwich sandwich) {
+        TextView desc = findViewById(R.id.description_tv);
+        TextView place = findViewById(R.id.origin_tv);
+        RecyclerView rv = findViewById(R.id.rv_main);
 
+        desc.setText(sandwich.getDescription());
+        place.setText(sandwich.getPlaceOfOrigin());
+        rv.setLayoutManager(new LinearLayoutManager(this));
+        rv.setAdapter(new com.udacity.sandwichclub.RViewAdapter_second(this, sandwich.getIngredients()));
     }
 }
