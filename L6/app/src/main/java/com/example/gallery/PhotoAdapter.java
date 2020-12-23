@@ -1,6 +1,6 @@
 package com.example.gallery;
 
-import android.view.*;
+import wandroid.view.*;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AlertDialog;
