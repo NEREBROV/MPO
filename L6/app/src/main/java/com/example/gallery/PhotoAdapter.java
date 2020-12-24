@@ -1,6 +1,6 @@
 package com.example.gallery;
 
-import wandroid.view.*;
+import android.view.*;
 import android.widget.ImageView;
 
 import android.widget.TextView;
