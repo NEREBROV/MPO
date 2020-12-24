@@ -3,6 +3,7 @@ package com.example.gallery;
 import wandroid.view.*;
 import android.widget.ImageView;
 
+import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GestureDetectorCompat;
 import androidx.recyclerview.widget.RecyclerView;
@@ -27,14 +28,7 @@ public class PhotoAdapter extends RecyclerView.Adapter <PhotoAdapter.ViewHolder>
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView picture;
-        /*ViewHolder(View view){
-            super(view);
-            picture = view.findViewById(R.id.img);
-            picture.setOnLongClickListener(v -> {
-                onLongClickListener.onLongClickListener(photos.get(this.getAdapterPosition()));
-                return true;
-            });
-        }*/
+        TextView tv;
         ViewHolder(View view){
             super(view);
             picture = view.findViewById(R.id.img);
@@ -65,7 +59,7 @@ public class PhotoAdapter extends RecyclerView.Adapter <PhotoAdapter.ViewHolder>
         Photo photo = photos.get(position);
         Picasso.get().load(photo.getUrlS()).into(holder.picture);
         holder.itemView.setTag(photo);
-
+        holder.tv.setText(photo.getTitle().substring(0,(photo.getTitle().length()<20?photo.getTitle().length():20)));
     }
 
     @Override
